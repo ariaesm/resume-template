@@ -1,0 +1,70 @@
+# Example resume. "Alex Example" is a FICTIONAL person; every detail below is
+# made up for demonstration. Replace it with your own data.
+meta:
+  lang: en          # value of <html lang="...">
+  direction: ltr    # ltr | rtl  (rtl also switches the font to Vazirmatn)
+
+basics:
+  name: Alex Example
+  label: Backend Software Engineer
+  email: alex@example.com
+  phone: "+1 555 0100"
+  location: Example City, Earth
+  links:
+    - label: example.com
+      url: https://example.com
+    - label: github.com/alex-example
+      url: https://github.com/alex-example
+  summary: >-
+    Fictional backend engineer used to demonstrate this template. Enjoys
+    readable code, boring infrastructure and well-tested APIs.
+
+sections:
+  - title: Experience
+    type: entries
+    items:
+      - heading: Senior Backend Engineer
+        subheading: Placeholder Corp
+        location: Remote
+        date: 2023 – Present
+        bullets:
+          - Designed a REST API used by the (imaginary) mobile and web clients.
+          - Introduced automated tests and CI for every service in the team.
+          - Mentored two junior engineers through code review and pairing.
+      - heading: Software Engineer
+        subheading: Sample Startup Ltd.
+        location: Example City
+        date: 2020 – 2023
+        bullets:
+          - Built internal dashboards with Python and PostgreSQL.
+          - Reduced deployment steps by containerising services with Docker.
+
+  - title: Education
+    type: entries
+    items:
+      - heading: B.Sc. Computer Science
+        subheading: University of Nowhere
+        date: 2016 – 2020
+
+  - title: Projects
+    type: entries
+    items:
+      - heading: demo-cli
+        subheading: Open source
+        url: https://example.com/demo-cli
+        bullets:
+          - A small command-line tool that exists only in this example.
+
+  - title: Skills
+    type: tags
+    items:
+      - label: Languages
+        values: [Python, SQL, JavaScript]
+      - label: Tools
+        values: [Docker, Git, PostgreSQL, Redis]
+
+  - title: Languages
+    type: list
+    items:
+      - English (fluent)
+      - Esperanto (basic)

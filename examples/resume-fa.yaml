@@ -1,0 +1,42 @@
+# نمونهٔ رزومهٔ فارسی (راست‌به‌چپ). «الکس نمونه» شخصیتی خیالی است.
+meta:
+  lang: fa
+  direction: rtl
+
+basics:
+  name: الکس نمونه
+  label: مهندس نرم‌افزار بک‌اند
+  email: alex@example.com
+  location: شهر نمونه
+  links:
+    - label: example.com
+      url: https://example.com
+  summary: >-
+    یک مهندس خیالی برای نمایش قالب. به کد خوانا، تست خودکار و
+    رابط‌های برنامه‌نویسی پایدار علاقه دارد.
+
+sections:
+  - title: سوابق کاری
+    type: entries
+    items:
+      - heading: مهندس ارشد بک‌اند
+        subheading: شرکت نمونه
+        date: ۱۴۰۲ – اکنون
+        bullets:
+          - طراحی و پیاده‌سازی API برای اپلیکیشن‌های وب و موبایل.
+          - راه‌اندازی تست خودکار و CI برای سرویس‌های تیم.
+
+  - title: تحصیلات
+    type: entries
+    items:
+      - heading: کارشناسی مهندسی کامپیوتر
+        subheading: دانشگاه ناکجا
+        date: ۱۳۹۵ – ۱۳۹۹
+
+  - title: مهارت‌ها
+    type: tags
+    items:
+      - label: زبان‌ها
+        values: [Python, SQL, JavaScript]
+      - label: ابزارها
+        values: [Docker, Git, PostgreSQL]
